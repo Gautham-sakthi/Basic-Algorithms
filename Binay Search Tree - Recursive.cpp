@@ -68,6 +68,6 @@ int main(int argc, const char * argv[]) {
     root = insertnode(root, 3);
     root = insertnode(root, 4);
     root = insertnode(root, 0);
-    std::cout <<"the number is " <<(searchbst(root, 0)?"found \n":"not found \n");
+    std::cout <<"the number is  " <<(searchbst(root, 0)?"found \n":"not found \n");
     return 0;
 }
