@@ -51,7 +51,7 @@ bool searchbst(node* root,int x){
         return 0;
     }
     if(root->data == x){
-        return root->data;
+        return 1;
     }
     else if(root->data >= x){
         return searchbst(root->left, x);
